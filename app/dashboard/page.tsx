@@ -18,7 +18,7 @@ export default async function Page() {
         <Card title="Pending" value={cardData.totalPendingInvoices} type="pending" />
         <Card title="Total Invoices" value={cardData.numberOfInvoices} type="invoices" />
         <Card
-          title="Total Customers"
+          title="Total Customers test"
           value={cardData.numberOfCustomers}
           type="customers"
         />
